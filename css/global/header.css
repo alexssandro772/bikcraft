@@ -24,8 +24,8 @@
    color: #ffffff;
    padding: 16px 0px;
    font-size: 18px;
-    font-family: 'Poppins';
-    font-weight: 400;
+    font-family: var(--font-1);
+    font-weight: 600;
  }
  
  .header-menu a:after {
