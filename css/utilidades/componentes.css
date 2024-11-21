@@ -7,7 +7,6 @@
   margin-right: auto;
 }
 
-
 .botao{
    display: inline-block;
    background: linear-gradient(#fcc216, #f2a50c);
@@ -20,12 +19,22 @@
    line-height: 1.33;
    font-family: var(--font-1);
    font-weight: 600;
+   max-width: max-content;
  }
  
  .botao:hover {
    color: #000000;
    background: linear-gradient(#ffb60d, #e59317);
  }
+
+ .botao.secundario {
+   background: var(--cor-10);
+   color: var(--cor-2);
+ }
+
+ .botao.secundario:hover {
+  background: var(--cor-9);
+}
  
  
  @media (max-width: 600px){
@@ -61,3 +70,5 @@
  .link:hover {
    color: var(--cor-0);
  }
+
+
