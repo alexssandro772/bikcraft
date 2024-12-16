@@ -3,6 +3,7 @@
    grid-template-columns: 1fr 1fr;
    gap: 0 40px;
    padding-top: 120px;
+   margin-bottom: 50px;
 }
 
 .lojas h2{
