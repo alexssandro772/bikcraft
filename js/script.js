@@ -79,7 +79,13 @@ function eventosGaleria(img){
 
 galeria.forEach(eventosGaleria);
 
+
 // Animação do site
 if(window.SimpleAnime){
   new  SimpleAnime();
 }
+
+if(window.ClipboardJS){
+  new ClipboardJS('.introducao-conteudo p');
+}
+
